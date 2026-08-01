@@ -1,7 +1,28 @@
 aid: parhelion-studio-co
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parhelion-studio-co.png
 name: Parhelion Studio Co.
-description: Parhelion Studio Co. is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Parhelion Studio Co. is an anime-focused game studio based in Ann Arbor,
+  Michigan, and a portfolio company of a16z (Speedrun Cohort 002). Founded by a team
+  that met at the University of Michigan, the studio builds live-service anime mobile
+  and PC games — including gacha titles and the tactical anime trading card game Echoes
+  of Astra — publishing across Steam, the Apple App Store, and Google Play. Their
+  mission is to make anime a global medium and to create long-lasting IP through games
+  and technology. Parhelion Studio is a consumer entertainment company; a public,
+  scan of its website (parhelion.gg), app-store listings, and the a16z Speedrun profile
+  found no developer-facing API, SDK, MCP server, webhook, or other machine-readable
+  API surface. This profile was added to the API Evangelist network as an a16z portfolio
+  lead and enriched to confirm it has no public API program at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/parhelion-studio-co/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Games
+- Gaming
+- Anime
+- Entertainment
+- Mobile Games
+- Consumer
+common:
+- type: Website
+  url: https://parhelion.gg/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/parhelion-studio-co
+- type: Twitter
+  url: https://x.com/parhelion_games
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
